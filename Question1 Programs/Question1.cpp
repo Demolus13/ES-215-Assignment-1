@@ -99,7 +99,7 @@ double computeAverageTime(void (*fibonacciFunc)(int, bool), int n, int iteration
 
 int main() {
     int n = 50;
-    int iterations = 1;
+    int iterations = 10;
 
     double fibonacciRecursiveTime = computeAverageTime(fibonacciRecursive, n, iterations);
     double fibonacciLoopTime = computeAverageTime(fibonacciLoop, n, iterations);
