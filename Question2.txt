@@ -85,4 +85,175 @@ real	2m10.610s
 user	2m10.287s
 sys	0m0.200s
 
+
+
+
 -------------------------------------------------------------------------------
+MMI cpp
+Matrix Size: 64
+Time taken by integer multiplication: 0.00598173 seconds
+-----------------------
+
+real	0m0.009s
+user	0m0.006s
+sys	0m0.003s
+
+Matrix Size: 128
+Time taken by integer multiplication: 0.029171 seconds
+-----------------------
+
+real	0m0.033s
+user	0m0.033s
+sys	0m0.000s
+
+Matrix Size: 256
+Time taken by integer multiplication: 0.218473 seconds
+-----------------------
+
+real	0m0.222s
+user	0m0.222s
+sys	0m0.000s
+
+Matrix Size: 512
+Time taken by integer multiplication: 1.78231 seconds
+-----------------------
+
+real	0m1.789s
+user	0m1.780s
+sys	0m0.009s
+
+Matrix Size: 1024
+Time taken by integer multiplication: 14.0332 seconds
+-----------------------
+
+real	0m14.045s
+user	0m14.022s
+sys	0m0.012s
+
+
+-------------------------------------------------------------------------------
+MMD cpp
+Matrix Size: 64
+Time taken by double multiplication: 0.00601323 seconds
+-----------------------
+
+real	0m0.009s
+user	0m0.009s
+sys	0m0.000s
+
+Matrix Size: 128
+Time taken by double multiplication: 0.0294723 seconds
+-----------------------
+
+real	0m0.033s
+user	0m0.029s
+sys	0m0.004s
+
+Matrix Size: 256
+Time taken by double multiplication: 0.221139 seconds
+-----------------------
+
+real	0m0.225s
+user	0m0.226s
+sys	0m0.000s
+
+Matrix Size: 512
+Time taken by double multiplication: 1.91507 seconds
+-----------------------
+
+real	0m1.923s
+user	0m1.907s
+sys	0m0.012s
+
+Matrix Size: 1024
+Time taken by double multiplication: 15.391 seconds
+-----------------------
+
+real	0m15.408s
+user	0m15.391s
+sys	0m0.004s
+
+
+-------------------------------------------------------------------------------
+MMI python
+Matrix Size: 64
+Time taken by integer multiplication: 0.03865 seconds
+-----------------------
+
+real	0m0.064s
+user	0m0.064s
+sys	0m0.000s
+
+Matrix Size: 128
+Time taken by integer multiplication: 0.30588 seconds
+-----------------------
+
+real	0m0.335s
+user	0m0.327s
+sys	0m0.008s
+
+Matrix Size: 256
+Time taken by integer multiplication: 2.43773 seconds
+-----------------------
+
+real	0m2.470s
+user	0m2.465s
+sys	0m0.005s
+
+Matrix Size: 512
+Time taken by integer multiplication: 18.06411 seconds
+-----------------------
+
+real	0m18.122s
+user	0m18.081s
+sys	0m0.036s
+
+Matrix Size: 1024
+Time taken by integer multiplication: 119.75543 seconds
+-----------------------
+
+real	1m59.914s
+user	1m59.690s
+sys	0m0.200s
+
+
+-------------------------------------------------------------------------------
+MMD python
+Matrix Size: 64
+Time taken by double multiplication: 0.03898 seconds
+-----------------------
+
+real	0m0.065s
+user	0m0.061s
+sys	0m0.004s
+
+Time taken by double multiplication: 0.30686 seconds
+-----------------------
+
+real	0m0.335s
+user	0m0.331s
+sys	0m0.004s
+
+Matrix Size: 256
+Time taken by double multiplication: 2.46854 seconds
+-----------------------
+
+real	0m2.502s
+user	0m2.489s
+sys	0m0.012s
+
+Matrix Size: 512
+Time taken by double multiplication: 17.25339 seconds
+-----------------------
+
+real	0m17.312s
+user	0m17.287s
+sys	0m0.016s
+
+Matrix Size: 1024
+Time taken by double multiplication: 113.72563 seconds
+-----------------------
+
+real	1m53.885s
+user	1m53.620s
+sys	0m0.200s

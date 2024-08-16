@@ -17,7 +17,7 @@ def MatrixMultiplicationInt(N):
     print(f"Time taken by integer multiplication: {end_time - start_time:.5f} seconds")
 
 if __name__ == "__main__":
-    N = 64
+    N = 1024
     print(f"Matrix Size: {N}")
     MatrixMultiplicationInt(N)
     print("-----------------------")

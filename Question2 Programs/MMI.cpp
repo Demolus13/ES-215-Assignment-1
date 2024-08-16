@@ -27,7 +27,7 @@ void MatrixMultiplicationInt(int N) {
 }
 
 int main() {
-    int N = 64;
+    int N = 1024;
 
     cout << "Matrix Size: " << N << endl;
     MatrixMultiplicationInt(N);
