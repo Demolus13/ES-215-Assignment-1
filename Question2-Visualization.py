@@ -1,32 +1,23 @@
-import pandas as pd
 import matplotlib.pyplot as plt
 
-# Load data from CSV
-bucket1 = pd.read_csv('bucket1.csv')
-bucket2 = pd.read_csv('bucket2.csv')
+# Example data
+sizes = [64, 128, 256, 512, 1024]
+cpp_int_real = [0.0059607, 0.0282816, 0.216383, 1.81806, 12.9467]
+cpp_double_real = [0.00601292, 0.0304396, 0.218415, .97491, 13.5741]
+python_int_real = [0.03905, 0.30659, 2.46428, 16.80643, 116.30515]
+python_double_real = [0.03884, 0.30690, 2.46059, 16.36700, 111.27206]
 
-# Plotting
-sizes = data['Matrix_Size']
+# Plot real times
+plt.figure(figsize=(12, 6))
 
-plt.figure(figsize=(12, 8))
+plt.plot(sizes, cpp_int_real, marker='o', label='C++ Integer Real Time')
+plt.plot(sizes, cpp_double_real, marker='o', label='C++ Double Real Time')
+plt.plot(sizes, python_int_real, marker='o', label='Python Integer Real Time')
+plt.plot(sizes, python_double_real, marker='o', label='Python Double Real Time')
 
-plt.subplot(2, 1, 1)
-plt.plot(sizes, data['Avg_Time_Int'], label='Avg Time Int', marker='o')
-plt.plot(sizes, data['Avg_CPU_Time_Int'], label='Avg CPU Time Int', marker='o')
-plt.plot(sizes, data['Avg_System_Time_Int'], label='Avg System Time Int', marker='o')
-plt.title('Integer Matrix Multiplication')
 plt.xlabel('Matrix Size (N)')
-plt.ylabel('Time (seconds)')
+plt.ylabel('Real Time (s)')
+plt.title('Matrix Multiplication Real Time Comparison')
 plt.legend()
-
-plt.subplot(2, 1, 2)
-plt.plot(sizes, data['Avg_Time_Double'], label='Avg Time Double', marker='o')
-plt.plot(sizes, data['Avg_CPU_Time_Double'], label='Avg CPU Time Double', marker='o')
-plt.plot(sizes, data['Avg_System_Time_Double'], label='Avg System Time Double', marker='o')
-plt.title('Double Matrix Multiplication')
-plt.xlabel('Matrix Size (N)')
-plt.ylabel('Time (seconds)')
-plt.legend()
-
-plt.tight_layout()
+plt.grid(True)
 plt.show()

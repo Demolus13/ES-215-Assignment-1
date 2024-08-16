@@ -1,0 +1,86 @@
+MMI cpp
+Matrix Size: 64
+Time taken by integer multiplication: 0.0059607 seconds
+-----------------------
+Matrix Size: 128
+Time taken by integer multiplication: 0.0282816 seconds
+-----------------------
+Matrix Size: 256
+Time taken by integer multiplication: 0.216383 seconds
+-----------------------
+Matrix Size: 512
+Time taken by integer multiplication: 1.81806 seconds
+-----------------------
+Matrix Size: 1024
+Time taken by integer multiplication: 12.9467 seconds
+-----------------------
+
+real	0m15.027s
+user	0m15.010s
+sys	0m0.012s
+
+
+MMD cpp
+Matrix Size: 64
+Time taken by double multiplication: 0.00601292 seconds
+-----------------------
+Matrix Size: 128
+Time taken by double multiplication: 0.0304396 seconds
+-----------------------
+Matrix Size: 256
+Time taken by double multiplication: 0.218415 seconds
+-----------------------
+Matrix Size: 512
+Time taken by double multiplication: 1.97491 seconds
+-----------------------
+Matrix Size: 1024
+Time taken by double multiplication: 13.5741 seconds
+-----------------------
+
+real	0m15.826s
+user	0m15.800s
+sys	0m0.016s
+
+
+MMI python
+Matrix Size: 64
+Time taken by integer multiplication: 0.03905 seconds
+-----------------------
+Matrix Size: 128
+Time taken by integer multiplication: 0.30659 seconds
+-----------------------
+Matrix Size: 256
+Time taken by integer multiplication: 2.46428 seconds
+-----------------------
+Matrix Size: 512
+Time taken by integer multiplication: 16.80643 seconds
+-----------------------
+Matrix Size: 1024
+Time taken by integer multiplication: 116.30515 seconds
+-----------------------
+
+real	2m16.085s
+user	2m15.647s
+sys	0m0.256s
+
+
+MMD python
+Matrix Size: 64
+Time taken by double multiplication: 0.03884 seconds
+-----------------------
+Matrix Size: 128
+Time taken by double multiplication: 0.30690 seconds
+-----------------------
+Matrix Size: 256
+Time taken by double multiplication: 2.46059 seconds
+-----------------------
+Matrix Size: 512
+Time taken by double multiplication: 16.36700 seconds
+-----------------------
+Matrix Size: 1024
+Time taken by double multiplication: 111.27206 seconds
+-----------------------
+
+real	2m10.610s
+user	2m10.287s
+sys	0m0.200s
