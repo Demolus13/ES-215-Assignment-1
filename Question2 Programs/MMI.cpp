@@ -27,11 +27,11 @@ void MatrixMultiplicationInt(int N) {
 }
 
 int main() {
-    int sizes[] = {64, 128, 256, 512, 1024};
-    for(int i = 0; i < 5; ++i) {
-        cout << "Matrix Size: " << sizes[i] << endl;
-        MatrixMultiplicationInt(sizes[i]);
-        cout << "-----------------------" << endl;
-    }
+    int N = 64;
+
+    cout << "Matrix Size: " << N << endl;
+    MatrixMultiplicationInt(N);
+    cout << "-----------------------" << endl;
+
     return 0;
 }
