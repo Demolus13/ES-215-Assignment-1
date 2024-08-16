@@ -19,7 +19,7 @@ real	0m15.027s
 user	0m15.010s
 sys	0m0.012s
 
-
+-------------------------------------------------------------------------------
 MMD cpp
 Matrix Size: 64
 Time taken by double multiplication: 0.00601292 seconds
@@ -41,7 +41,7 @@ real	0m15.826s
 user	0m15.800s
 sys	0m0.016s
 
-
+-------------------------------------------------------------------------------
 MMI python
 Matrix Size: 64
 Time taken by integer multiplication: 0.03905 seconds
@@ -63,7 +63,7 @@ real	2m16.085s
 user	2m15.647s
 sys	0m0.256s
 
-
+-------------------------------------------------------------------------------
 MMD python
 Matrix Size: 64
 Time taken by double multiplication: 0.03884 seconds
@@ -84,3 +84,5 @@ Time taken by double multiplication: 111.27206 seconds
 real	2m10.610s
 user	2m10.287s
 sys	0m0.200s
+
+-------------------------------------------------------------------------------
