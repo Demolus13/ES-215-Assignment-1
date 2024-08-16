@@ -1,0 +1,9 @@
+Average time taken for recursive fibonacci: 116.686 seconds
+Average time taken for loop fibonacci: 2e-07 seconds
+Average time taken for recursive fibonacci with memoization: 1.96e-05 seconds
+Average time taken for loop fibonacci with memoization: 6e-07 seconds
+
+Speedups relative to recursive fibonacci:
+Speedup of loop fibonacci: 5.83432e+08x
+Speedup of recursive fibonacci with memoization: 5.95339e+06x
+Speedup of loop fibonacci with memoization: 1.94477e+08x
